@@ -1,0 +1,34 @@
+# Internet en croisière : quelle eSIM choisir ?
+
+Partie 2 du test de recrutement MyBestSim (Stagiaire Développeur IA & Automatisation) : un article de blog optimisé SEO, publié sous forme de page web.
+
+**Démo en ligne :** _à compléter avec le lien GitHub Pages_
+
+## Contenu
+
+- `index.html` : la page complète (HTML + CSS + contenu de l'article), sans dépendance externe ni étape de build.
+
+## Ce que contient la page
+
+- Un article structuré pour le SEO : titre unique, hiérarchie `h2` / `h3`, sommaire cliquable, FAQ, balises `title` et `meta description`.
+- Des tableaux comparatifs, des encadrés (en bref, pièges, astuces) et des cartes de recommandation avec boutons.
+- Un affichage adapté au mobile et au mode sombre.
+
+## Lancer en local
+
+Ouvre simplement `index.html` dans un navigateur.
+
+## Déployer sur GitHub Pages
+
+1. Pousse `index.html` à la racine du repo.
+2. Settings → Pages → Branch `main`, dossier `/ (root)`.
+3. Le site est disponible sur `https://<pseudo>.github.io/<repo>/`.
+
+## À compléter
+
+- Remplacer les liens `href="#"` par les vrais liens (affiliation GigSky, Yesim, Roamic, pages internes).
+- Vérifier les prix et les codes promo le jour de la publication.
+
+## Utilisation de l'IA
+
+Le brouillon de l'article a été rédigé avec une IA à partir de recherches sur les sources officielles (Commission européenne, Your Europe) et les fournisseurs d'eSIM. La page web a été générée avec Claude, puis relue et corrigée à la main.
