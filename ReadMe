@@ -10,9 +10,18 @@ Partie 2 du test de recrutement MyBestSim (Stagiaire Développeur IA & Automatis
 
 ## Ce que contient la page
 
-- Un article structuré pour le SEO : titre unique, hiérarchie `h2` / `h3`, sommaire cliquable, FAQ, balises `title` et `meta description`.
-- Des tableaux comparatifs, des encadrés (en bref, pièges, astuces) et des cartes de recommandation avec boutons.
+- Un article structuré pour le SEO : titre unique (H1), hiérarchie `h2` / `h3`, sommaire cliquable, FAQ dépliable, balises `title` (57 caractères) et `meta description` (moins de 155).
+- Des tableaux comparatifs, des encadrés (en bref, pièges, astuces), un schéma des trois zones de réseau (port, côtes, large) et des cartes de recommandation avec boutons d'offre.
+- Des liens internes vers les pages MyBestSim (codes promo, calculateur de données, téléphones compatibles, articles croisière) et des liens vers les sources officielles et presse citées.
 - Un affichage adapté au mobile et au mode sombre.
+
+## Choix éditoriaux
+
+- **Angle :** le réseau à bord ne fonctionne pas comme à terre. Une eSIM classique sert aux escales, le mode avion en mer, et une eSIM croisière ou le wifi du bord pour rester connecté au large.
+- **Le piège de la facture :** les règles européennes d'itinérance ne couvrent que les réseaux terrestres, pas les réseaux maritimes par satellite. Cette section s'appuie sur la Commission européenne et Your Europe.
+- **Recommandations :** GigSky pour la mer et la terre, Yesim et Roamic pour les escales. Pour chaque fournisseur, l'article indique ce qu'il dit lui-même de la couverture en mer. Roamic est présenté « à réserver aux escales » faute d'information officielle sur l'usage en mer.
+- **Prix :** donnés comme ordres de grandeur avec leur source, car les compagnies ne publient pas de grille unique. Les prix du wifi viennent d'un vendeur d'eSIM (GigSky) et d'un site tiers : l'article le précise.
+- **Cohérence avec MyBestSim :** l'article renvoie vers les guides croisière existants du site pour éviter de les concurrencer.
 
 ## Lancer en local
 
@@ -24,11 +33,16 @@ Ouvre simplement `index.html` dans un navigateur.
 2. Settings → Pages → Branch `main`, dossier `/ (root)`.
 3. Le site est disponible sur `https://<pseudo>.github.io/<repo>/`.
 
-## À compléter
+## Limites et points à vérifier
 
-- Remplacer les liens `href="#"` par les vrais liens (affiliation GigSky, Yesim, Roamic, pages internes).
-- Vérifier les prix et les codes promo le jour de la publication.
+- Les prix (eSIM et wifi), les codes promo et les promotions changent souvent : à revérifier le jour de la publication.
+- Les liens d'affiliation (GigSky, Yesim, Roamic) sont ceux des pages MyBestSim, à tester avant mise en ligne.
+- Aucun tarif officiel récent de wifi de bord n'a été trouvé pour MSC ou Costa : les chiffres du wifi sont indicatifs.
+- Le nombre de navires compatibles GigSky (plus de 290) est celui annoncé par GigSky. La page MyBestSim indique « plus de 200 ».
+- Le seuil de coupure automatique à 50 € est celui de la Commission européenne. Les sources officielles ne précisent pas si la TVA est incluse.
 
 ## Utilisation de l'IA
 
-Le brouillon de l'article a été rédigé avec une IA à partir de recherches sur les sources officielles (Commission européenne, Your Europe) et les fournisseurs d'eSIM. La page web a été générée avec Claude, puis relue et corrigée à la main.
+Les recherches, le plan et le brouillon de l'article ont été réalisés avec l'aide de Claude (Anthropic), à partir de sources consultées : Commission européenne, Your Europe, convention de l'ONU sur le droit de la mer, presse (Selectra, Corse Net Infos) et pages des fournisseurs d'eSIM. La page web a été générée avec une IA puis corrigée : liens réels, sources cliquables, schéma, synchronisation avec le texte final.
+
+Mes décisions : le choix de l'angle et de la longueur, le retrait d'un tableau de profils jugé peu pertinent, l'ajout de liens cliquables dans les encadrés « À retenir », l'exigence de sources fiables et la vérification des affirmations avant publication.
