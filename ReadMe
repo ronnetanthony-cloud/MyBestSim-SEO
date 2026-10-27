@@ -2,7 +2,7 @@
 
 Partie 2 du test de recrutement MyBestSim (Stagiaire Développeur IA & Automatisation) : un article de blog optimisé SEO, publié sous forme de page web.
 
-**Démo en ligne :** _à compléter avec le lien GitHub Pages_
+**Démo en ligne :** https://ronnetanthony-cloud.github.io/MyBestSim-SEO/
 
 ## Contenu
 
@@ -31,7 +31,7 @@ Ouvre simplement `index.html` dans un navigateur.
 
 1. Pousse `index.html` à la racine du repo.
 2. Settings → Pages → Branch `main`, dossier `/ (root)`.
-3. Le site est disponible sur `https://<pseudo>.github.io/<repo>/`.
+3. Le site est disponible sur `https://ronnetanthony-cloud.github.io/MyBestSim-SEO/`.
 
 ## Limites et points à vérifier
 
